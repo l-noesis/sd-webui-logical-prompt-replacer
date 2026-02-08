@@ -5,11 +5,11 @@ Intercepts prompts during the generation process and applies rule-based replacem
 
 
 ## Background
-Dynamic Promptsなどでランダム要素を加えていると、あらかじめ書いておいた固定プロンプトと、ランダム要素が衝突して矛盾してしまうことがあります。
+Dynamic Promptsなどでランダム要素を加えていると、あらかじめ書いておいたプロンプトと、ランダム要素が衝突して矛盾してしまうことがあります。
 
 本拡張機能は、そのようなプロンプト同士の衝突を避けるために作成しました。
 
-生成時にプロンプトをチェックし、条件次第でプロンプトを自動的に書き換えます。
+生成時にDynamic Promptsより後にプロンプトをチェックし、条件次第でプロンプトを自動で書き換えます。
 
 ## Usage
 Rules Listに以下のように記述します。
